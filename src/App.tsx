@@ -19,8 +19,13 @@ export default function App() {
             <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-blue-500/20">
               <Keyboard className="w-6 h-6 text-white" />
             </div>
-            <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400">
-              Typing Master Pro
+            <h1 className="text-xl font-bold flex items-baseline gap-2">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-400">
+                Typing Master Pro
+              </span>
+              <span className="text-xs font-medium text-blue-300/60 tracking-wider">
+                by PELE v 1.0
+              </span>
             </h1>
           </div>
           <div className="flex bg-white/10 rounded-lg p-1">
